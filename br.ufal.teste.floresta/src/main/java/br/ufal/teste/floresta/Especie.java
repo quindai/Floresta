@@ -14,7 +14,7 @@ import java.awt.Graphics;
 
 public interface Especie {
 	public void mover();		//toda especie se move, come e se reproduz
-	public boolean reproduzir(Object ob);
+	//public boolean reproduzir(Object ob);
 	public boolean comer(Object ob);
 	public void draw(Graphics g);
 }

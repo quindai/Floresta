@@ -30,22 +30,22 @@ public abstract class Animal implements Especie{
 	protected Dimension area;
 	protected String nome;	//NOME DO ANIMAL
 	
-	public boolean reproduzir(Object ob){
-		boolean saida = false;
-		Animal obj = (Animal)ob;
-		int ox = obj.getX();
-		int oy = obj.getY();
-		//if(((x - 3) >= ox) && ((y - 3) >= oy)){
-		if(Math.sqrt((x-ox) * (x-ox) + (y-oy)) < 3){
-			if(obj.estaAtivo){
-				//if(obj.equals(obj))
-				saida = true;
-				System.out.println("Reproduzindo");
-			}
-		}
-		
-		return saida;
-	}
+//	public boolean reproduzir(Object ob){
+//		boolean saida = false;
+//		Animal obj = (Animal)ob;
+//		int ox = obj.getX();
+//		int oy = obj.getY();
+//		//if(((x - 3) >= ox) && ((y - 3) >= oy)){
+//		if(Math.sqrt((x-ox) * (x-ox) + (y-oy)) < 3){
+//			if(obj.estaAtivo){
+//				//if(obj.equals(obj))
+//				saida = true;
+//				System.out.println("Reproduzindo");
+//			}
+//		}
+//		
+//		return saida;
+//	}
 	
 	/**
 	 * Esse método descreve se um animal comeu ou não ao passar por um alimento

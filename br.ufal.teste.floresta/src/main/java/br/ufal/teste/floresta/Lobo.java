@@ -42,7 +42,7 @@ public class Lobo extends Terrestre{
 		return saida;
 	}
 	
-	private String getEstado(){
+	public String getEstado(){
 		String saida = "";
 		switch(margem){
 		case 0: 
